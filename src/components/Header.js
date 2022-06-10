@@ -9,10 +9,10 @@ function Header() {
                 </a>
                 <ul id='nav-mobile' className='right hide-on-med-and-down'>
                     <li>
-                        <Link to='/about'>About</Link>
+                        <Link to='/react-shop-refact/about'>About</Link>
                     </li>
                     <li>
-                        <Link to='/contact'>Contacts</Link>
+                        <Link to='/react-shop-refact/contact'>Contacts</Link>
                     </li>
                 </ul>
             </div>

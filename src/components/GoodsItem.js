@@ -28,7 +28,7 @@ function GoodsItem(props) {
                 <span className='right'>{displayType}</span>
             </div>
             <div className='card-action'>
-                <Link to={`/goods/${mainId}`} className='btn'>
+                <Link to={`/react-shop-refact/goods/${mainId}`} className='btn'>
                     Подробнее
                 </Link>
                 <button

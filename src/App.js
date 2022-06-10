@@ -15,14 +15,14 @@ function App() {
                 <Header />
                 <main className='container content'>
                     <Switch>
-                        <Route exact path='/'>
+                        <Route exact path='/react-shop-refact'>
                             <ContextProvider>
                                 <Shop />
                             </ContextProvider>
                         </Route>
-                        <Route path='/contact' component={Contact} />
-                        <Route path='/about' component={About} />
-                        <Route path='/goods/:id' component={Description} />
+                        <Route path='/react-shop-refact/contact' component={Contact} />
+                        <Route path='/react-shop-refact/about' component={About} />
+                        <Route path='/react-shop-refact/goods/:id' component={Description} />
                         <Route component={NotFound} />
                     </Switch>
                     {/* <ContextProvider>
